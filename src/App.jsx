@@ -30,7 +30,7 @@ function App() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Name" value={name} onChange={handleNameChange} />
+      <input type="text" placeholder="Name" value={name} onChange={handleNameChange} />hii
       <input type="email" placeholder="Email Address" value={email} onChange={handleEmailChange} />
       <textarea placeholder="Message" value={message} onChange={handleMessageChange}></textarea>
       <button type="submit">Send</button>
